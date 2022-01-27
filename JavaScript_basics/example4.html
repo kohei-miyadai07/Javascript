@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let n = 12345;
+            let n2 = 12.345;
+            alert(n);
+            alert(n2);
+
+            alert(1/0);
+            alert(Infinity);
+            alert( "not a number" / 2 + 5 );
+
+            const bigInt = 1234567890123456789012345678901234567890n;
+            alert(bigInt);
+
+            let str;
+            str = "Hello!!";
+            alert(str);
+            str = 'World!!';
+            alert(str);
+            alert(`Hello ${str}.`);
+
+            let isGreater = 4 > 1;
+            alert(isGreater);
+            isGreater = 10 < 1;
+            alert(isGreater);
+
+            let age = null;
+            alert(age);
+
+            let x;
+            alert(x);
+
+            alert(typeof 1);
+            alert(typeof(5092/0));
+            alert(typeof "bb" * 2);
+            alert(typeof(bigInt));
+            alert(typeof "John");
+            alert(typeof(`Good bye,${str}.`));
+            alert(typeof isGreater);
+            alert(typeof(age));
+            alert(typeof undefined);
+            alert(typeof(Math));
+            alert(typeof Symbol("id"));
+            alert(confirm);
+        </script>
+    </body>
+</html>

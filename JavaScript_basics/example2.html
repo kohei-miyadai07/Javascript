@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="button" value="open" onclick="clickBtn1()">
+        <input type="button" value="close" onclick="clickBtn2()">
+        <script>
+            let windows1;
+
+            function clickBtn1() {
+                windows1=window.open("/subhtml/subExample.html","WindowsName1","width=800,height=100,left=250,top=250,scrollbars=yes");
+            }
+            function clickBtn2() {
+                windows1=window.close;
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let year = prompt('In which year was ECMAScript-2015 specification published?', '');
+            if (year < 2015) {
+               alert("No.1 Too early...");
+            } else if (year > 2015){
+               alert("No.1 Too late...");
+            } else {
+                alert("Exactly");
+            }
+        </script>
+        <script>
+            let age = prompt("How old are you?", "");
+            let accessAllowed = age >= 18 ? "Adult" : "Child"
+            alert("No.2 " + accessAllowed);
+        </script>
+        <script>
+            let yourAge = prompt("age?", "");
+            let message = (yourAge < 3) ? "Hi,Bady!" :
+               (yourAge < 18) ? "Hello!" :
+               (yourAge < 100) ? "Greetings!" :
+               "What an unusual age!";
+            alert("No.3 " + message);
+        </script>
+    </body>
+</html>
