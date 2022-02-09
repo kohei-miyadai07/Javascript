@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            let salaries = {};
+            salaries.John = 100;
+            salaries["Ann"] = 160;
+            salaries.Pete = 130;
+            alert(salaries["Pete"]);
+
+            let sum = 0;
+            for (key in salaries) {
+                sum += salaries[key];
+            }
+            alert(sum);
+        </script>
+    </body>
+</html>
